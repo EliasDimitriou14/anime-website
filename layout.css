@@ -1,0 +1,36 @@
+/* STYLE THE NAVIGATION BAR OF THE PAGES-START */
+.navbar{
+    background-color: #525B76;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    font-size:20px;
+    font-family: 'DynaPuff', scursive;
+}
+
+/* style the li elements */
+.page-links{
+    float:left;
+}
+
+/* style the a elements */
+.page{
+    display:block;
+    color:white;
+    padding:14px 16px;
+    text-align:center;
+    text-decoration:none;
+}
+
+/* style the a elements when cursor is over them */
+.page-links .page:hover{
+    background-color:#393D63;
+}
+
+/* style the active page's link to look darker */
+.active{
+    background-color: #201E50 ;
+}
+
+/* STYLE THE NAVIGATION BAR OF THE PAGES-END */
