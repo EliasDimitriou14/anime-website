@@ -6,8 +6,8 @@
     padding:0;
     overflow:hidden;
     font-size:20px;
-    font-family: 'DynaPuff', scursive;
 }
+
 
 /* style the li elements */
 .page-links{
@@ -34,3 +34,119 @@
 }
 
 /* STYLE THE NAVIGATION BAR OF THE PAGES-END */
+
+/* style the trasparent container */
+.container{
+    background-color: rgba(82, 91, 118, 0.9) ;
+    width:60%;
+    margin:0 auto;
+    padding: 15px;;
+    border-radius:10px;
+    margin-top:30px;
+    box-shadow: 0 0 0.5rem hsl(300, 3%, 7%);
+}
+
+
+/* style the welcoming header*/
+.home-header{
+    width:fit-content;
+    text-align: center;
+    margin:0 auto;
+    margin-top:20px;
+    font-size:50px;
+    color:white;
+}
+
+/* style the anime title headers*/
+.anime-title{
+    width:fit-content;
+    text-align: center;
+    margin:0 auto;
+    margin-top:50px;
+    text-decoration: underline;
+    color:white;
+}
+
+/* style the paragraphs of the anime description */
+.anime-descr{
+    margin: 0 auto;
+    justify-content: center;
+    width:60%;
+    margin-top:12px;
+    background-color: #393D63;
+    color:white;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5rem hsl(300, 3%, 7%);
+}
+
+/* style the anime characters image of page no1*/
+.characters{
+    width:80%;
+    border-radius:10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    box-shadow: 0 0 0.5rem hsl(300, 3%, 7%);
+}
+
+/* style the body of the page*/
+
+body{
+    margin:0px;
+    font-family: 'DynaPuff', scursive;
+    background-color:#B1B1C8;
+    color:black;
+    text-shadow: 2px 2px black;
+    background-image: url("https://thumbs.dreamstime.com/b/black-white-seamless-pattern-dots-manga-style-152911192.jpg");
+}
+
+ /* style the footer of the pages */
+footer{
+    margin-top:40px;
+    background-color: #525B76;
+    padding:20px;
+    color:white;
+    text-align: center;
+}
+
+
+
+/* STYLE THE SOCIAL MEDIA ICONS-START */
+ /* Style all font awesome icons */
+ .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 0 0.2rem hsl(300, 3%, 7%);
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+    background: #cd486b;
+    color: white;
+  }
+
+  /* STYLE THE SOCIAL MEDIA ICONS-END */
