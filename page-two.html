@@ -6,6 +6,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Anime House/Susbscribe</title>
     </head>
     <body>
@@ -15,5 +16,34 @@
             <li class="page-links"><a class="page" href="page-three.html">Anime Info</a></li>
             <li class="page-links"><a class="page" href="page-four.html">Gallery</a></li>
         </ul>
+    <form method="post">
+        <fieldset class="user_form">
+            <legend class="legendary">Anime Fan</legend>
+
+            <label for="first-name">First Name</label><br>
+            <input type="text" id="first-name" name="first_name" ><br><br>
+
+            <label for="last-name">Last Name</label><br>
+            <input type="text" id="last-name" name="last_name" ><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="user_email" ><br><br>
+
+            <label for="newsletter">Sign up for newsletter</label><br>
+            <input type="checkbox" id="newsletter" name="news"><br><br>
+
+            <label for="descr">Description</label><br>
+            <textarea id="descr" name="description" ></textarea><br><br>
+
+            <button id="subscribe" name="subscribe_button">Subscribe</button>
+        </fieldset>
+    </form>
+
+        <footer>
+            COPYRIGHT © 2022 | ELIAS DIMITRIOU | ALL RIGHTS RESERVED |
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </footer>
     </body>
 </html>
