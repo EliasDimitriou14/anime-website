@@ -74,12 +74,13 @@ footer{
 }
 
 
-/* style the welcoming header*/
-.home-header{
+/* style the welcoming header and the header of page three*/
+.home-header, .best-anime{
     width:fit-content;
     text-align: center;
+    text-decoration: underline;
     margin:0 auto;
-    margin-top:20px;
+    margin-top:25px;
     font-size:50px;
     color:white;
 }
@@ -228,6 +229,49 @@ label{
 }
 
 /*STYLE ALL THE ELEMENTS OF THE SUBSCRIPTION FORM-END*/
+
+/* STYLE ALL THE ELEMENTS OF THE TOP ANIME TAB-START */
+
+/* style the unordered list */
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin:10px;
+    padding:10px;
+    font-size:23px;
+}
+
+
+/* style the divs that contain the image and the li elements of the list with the links to youtube videos*/
+.mini-container{
+    background-color: #201E50;
+    box-shadow: 0 0 0.5rem hsl(300, 3%, 7%);
+    border-radius: 10px;
+    margin:10px;
+    width:fit-content;
+    height: fit-content;
+    align-items: center;
+}
+
+/* atyle the images of the anime  inside the mini-container div*/
+.anime-image{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:250px;
+    height:150px;
+}
+
+/* style the links to the youtube videos */
+.videos{
+    color:white;
+    font-size:13px;
+}
+
+/* STYLE ALL THE ELEMENTS OF THE TOP ANIME TAB-END */
 
 /* STYLE THE SOCIAL MEDIA ICONS-START */
 
