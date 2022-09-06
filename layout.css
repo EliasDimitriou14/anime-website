@@ -75,7 +75,7 @@ footer{
 
 
 /* style the welcoming header and the header of page three*/
-.home-header, .best-anime{
+.home-header, .best-anime, .anime-gallery{
     width:fit-content;
     text-align: center;
     text-decoration: underline;
@@ -272,6 +272,48 @@ label{
 }
 
 /* STYLE ALL THE ELEMENTS OF THE TOP ANIME TAB-END */
+
+
+/* STYLE ALL THE ELEMENTS INSIDE THE GALLERY CONTAINER-START */
+
+/* style the label of each image of the gallery */
+.gallery-label{
+    font-size:15px;
+    display:block;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+/* style  each image of the gallery */
+.gallery-image{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:300px;
+    height:200px;
+}
+
+/* style the div tha contains the link at the bottom of every page's container  */
+.end-link{
+    text-align: center;
+    font-size:20px;
+    background-color:#393D63;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5rem hsl(300, 3%, 7%);
+    width:40%;
+    margin:0 auto;
+
+}
+
+/* style the link at the bottom of every page's container */
+.last-link{
+    color: white;
+    text-decoration: underline;
+}
+
+/* STYLE ALL THE ELEMENTS INSIDE THE GALLERY CONTAINER-END */
+
 
 /* STYLE THE SOCIAL MEDIA ICONS-START */
 
